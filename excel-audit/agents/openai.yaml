@@ -1,0 +1,4 @@
+interface:
+  display_name: "Excel 审计"
+  short_description: "检查数据、公式、期间口径、汇总勾稽及更新传递，给出可定位的问题与修正建议"
+  default_prompt: "使用 $excel-audit 审计附件 Excel，重点核对关键结果的期间与口径、源数据、公式和汇总勾稽，列出问题位置、证据、影响及修正建议；先只读检查。"
